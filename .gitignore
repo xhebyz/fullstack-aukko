@@ -74,3 +74,4 @@ typings/
 # assets manifest
 manifest.json
 *.json~
+.idea
