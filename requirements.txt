@@ -1,0 +1,4 @@
+Flask
+flask-webpackext
+requests
+beautifulsoup4

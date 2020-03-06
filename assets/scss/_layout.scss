@@ -1,0 +1,28 @@
+html, body {
+  background: #CCC;
+  font-family: "Butler";
+  p {
+    font-size: 20px;
+  }
+}
+
+h1 {
+  font-family: "Butler";
+  font-weight: 600;
+}
+
+.gif {
+  text-align: center;
+
+  &.loading {
+    background: asset-url('../images/loading.gif');
+    width: 709px;
+    height: 606px;
+  }
+
+  &.lines-of-code {
+    background: asset-url('../images/lines-of-code.gif');
+    width: 400px;
+    height: 300px;
+  } 
+}
