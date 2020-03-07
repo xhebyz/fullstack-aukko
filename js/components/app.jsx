@@ -25,10 +25,10 @@ const useStyles = makeStyles(theme => ({
 export default function App() {
     const classes = useStyles();
     const [categories, setCategories] = useState([]);
-    const [category, setCategory] = useState(0);
+    const [category, setCategory] = useState('-1');
     const [books, setBooks] = useState([]);
     const [loading, setLoading] = useState(true);
-    const [booksSize, setBookSize] = useState(0);
+    const [categoryName, setCategoryName] = useState('');
 
     if (categories.length == 0) {
         fetch(`/api/v1/categories`)
@@ -52,6 +52,7 @@ export default function App() {
                 console.log(response)
                 setCategories(response.categories);
                 let category_data = categories[category];
+                setCategoryName(category_data.name);
                 setBooks(category_data.books);
                 setLoading(false)
             });
@@ -63,11 +64,11 @@ export default function App() {
         let category_data = categories[categories_id];
         console.log(category_data.books)
         setBooks(category_data.books);
-        setBookSize(category_data.books.length)
+        setCategoryName(category_data.name);
     };
     return (
 
-        <div style={{maxWidth: '900px', margin: '0 auto'}}>
+        <div style={{margin: '0 auto'}}>
             {loading && <LinearProgress/>}
 
             <Paper style={{textAlign: 'center'}}>
@@ -77,17 +78,19 @@ export default function App() {
                     value={category}
                     onChange={handleChange}
                 >
+                    <MenuItem value='-1'>Select Category</MenuItem>
+
                     {
                         categories.map((cat, i) => {
                             console.log("Entered");
                             // Return the element. Also pass key
                             return (
-                                <MenuItem value={cat.id}>{cat.name}</MenuItem>
+                                <MenuItem value={i}>{cat.name}</MenuItem>
                             )
                         })
                     }
                 </Select>
-                <CustomizedTables data={books} setBooks={setBooksHandle}/>
+                <CustomizedTables data={books} setBooks={setBooksHandle} categoryName={categoryName}/>
             </Paper>
         </div>
     );

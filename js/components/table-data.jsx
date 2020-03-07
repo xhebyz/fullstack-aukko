@@ -38,17 +38,22 @@ const tableIcons = {
     ThirdStateCheck: forwardRef((props, ref) => <Remove {...props} ref={ref}/>),
     ViewColumn: forwardRef((props, ref) => <ViewColumn {...props} ref={ref}/>)
 };
-export default function CustomizedTables({data, setBooks}) {
+export default function CustomizedTables({data, setBooks, categoryName}) {
 
     return (
         <div style={{maxWidth: "100%"}}>
             <MaterialTable icons={tableIcons}
                            columns={[
                                {title: "Id", field: "id"},
-                               {title: "Title", field: "title"}
+                               {title: "Title", field: "title"},
+                               {title: 'Cover', field: 'thumbnail_url', render: rowData => <img src={rowData.thumbnail_url} style={{width: 100}}/> },
+                               {title: "Stock", field: "stock"},
+                               {title: "Price", field: "price"},
+                               {title: "description", field: "product_description"},
+                               {title: "upc", field: "upc"}
                            ]}
                            data={data}
-                           title="Books"
+                           title={categoryName + " Books"}
                            editable={{
                                onRowDelete: oldData =>
                                    new Promise(resolve => {
@@ -63,7 +68,7 @@ export default function CustomizedTables({data, setBooks}) {
                                            })
                                            .then(response => {
                                                data.splice(data.indexOf(oldData), 1);
-                                               setBooks(data)
+                                               setBooks()
                                            });
 
                                    })
