@@ -14,7 +14,7 @@ services:
     user: root
   react:
     build: .
-    command: bash -c "npm start & while [ ! -f webkit-build/manifest.json ] ; do sleep 1 ; echo 'waiting for manifest.json from webkit' ; done"
+    command: npm start
     volumes:
       - .:/home/app-user/app
       - /home/app-user/app/node_modules

@@ -20,7 +20,7 @@ module.exports = {
     chunkFilename: '[id].[chunkhash].chunk'
   },
   resolve: {
-    extensions: ['.js', '.scss'],
+    extensions: ['.js', '.scss', 'jsx'],
     modules: [node_modules]
   },
   resolveLoader:{

@@ -11,12 +11,11 @@ class Category(db.Model, SerializerMixin):
 
 
 class Book(db.Model, SerializerMixin):
-
     id = db.Column(db.Integer, primary_key=True)
     category_id = db.Column(db.Integer, db.ForeignKey('category.id'), nullable=False)
     title = db.Column(db.String(120), unique=False, nullable=False)
     thumbnail_url = db.Column(db.String(120), unique=False, nullable=True)
     price = db.Column(db.String(120), unique=False, nullable=True)
     stock = db.Column(db.Boolean, unique=False, nullable=True)
-    product_description = db.Column(db.String(120), unique=True, nullable=True)
+    product_description = db.Column(db.String(120), unique=False, nullable=True)
     upc = db.Column(db.String(120), unique=False, nullable=True)
