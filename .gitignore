@@ -75,4 +75,7 @@ typings/
 manifest.json
 *.json~
 .idea
+.idea/fullstack-aukko.iml
+.idea/misc.xml
+.idea/workspace.xml
 *.db
