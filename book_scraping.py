@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 import re
 from config import db
-from sqlalchemy import create_engine
 from models import Book, Category
 
 

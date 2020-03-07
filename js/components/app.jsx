@@ -1,9 +1,9 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import Paper from '@material-ui/core/Paper';
 import {makeStyles} from '@material-ui/core/styles';
 import Select from '@material-ui/core/Select';
 import MenuItem from '@material-ui/core/MenuItem';
-import CustomizedTables from './table.jsx';
+import CustomizedTables from './table-data.jsx';
 import {LinearProgress} from '@material-ui/core';
 
 const useStyles = makeStyles(theme => ({
@@ -25,10 +25,10 @@ const useStyles = makeStyles(theme => ({
 export default function App() {
     const classes = useStyles();
     const [categories, setCategories] = useState([]);
-
     const [category, setCategory] = useState(0);
     const [books, setBooks] = useState([]);
     const [loading, setLoading] = useState(true);
+    const [booksSize, setBookSize] = useState(0);
 
     if (categories.length == 0) {
         fetch(`/api/v1/categories`)
@@ -42,16 +42,29 @@ export default function App() {
             });
     }
 
+    const setBooksHandle = (books) => {
+        setLoading(true)
+        fetch(`/api/v1/categories`)
+            .then(result => {
+                return result.json();
+            })
+            .then(response => {
+                console.log(response)
+                setCategories(response.categories);
+                let category_data = categories[category];
+                setBooks(category_data.books);
+                setLoading(false)
+            });
+    }
+
     const handleChange = event => {
         let categories_id = event.target.value
         setCategory(categories_id);
         let category_data = categories[categories_id];
         console.log(category_data.books)
         setBooks(category_data.books);
-
-
+        setBookSize(category_data.books.length)
     };
-
     return (
 
         <div style={{maxWidth: '900px', margin: '0 auto'}}>
@@ -74,33 +87,7 @@ export default function App() {
                         })
                     }
                 </Select>
-
-
-                <CustomizedTables data={books}/>
-
-
-                {/*<Grid container>*/}
-                {/*  <Grid item md={6}>*/}
-                {/*  <h1>{ page.header }</h1>*/}
-                {/*  <p>{ page.body }</p>*/}
-                {/*  <Divider variant="middle" />*/}
-                {/*  <p>{ page.tag }</p>*/}
-                {/*  <div className={classes.center}>*/}
-                {/*    <Avatar className={classes.rounded}>*/}
-                {/*      <DeveloperModeIcon />*/}
-                {/*    </Avatar>*/}
-                {/*    <Avatar className={classes.rounded}>*/}
-                {/*      <NewReleasesIcon />*/}
-                {/*    </Avatar>*/}
-                {/*    <Avatar className={classes.rounded}>*/}
-                {/*      <LocalCafeIcon />*/}
-                {/*    </Avatar>*/}
-                {/*  </div>*/}
-                {/*  </Grid>*/}
-                {/*  <Grid item md={6}>*/}
-                {/*  <div className={"gif " + gif}></div>*/}
-                {/*  </Grid>*/}
-                {/*</Grid>*/}
+                <CustomizedTables data={books} setBooks={setBooksHandle}/>
             </Paper>
         </div>
     );

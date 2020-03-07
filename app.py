@@ -1,7 +1,7 @@
-from flask_webpackext import FlaskWebpackExt
 from flask import render_template, send_from_directory
-from api.v1.basic import CategoryAPI, BooksAPI, BasicAPI
-from flask_restful import Resource, Api
+from api.v1.category import CategoryAPI
+from api.v1.book import BooksAPI
+from flask_restful import Resource
 from config import app, api
 
 api_route = '/api/v1'
@@ -17,16 +17,10 @@ class HelloWorld(Resource):
         return {'hello': 'world'}
 
 
-api.add_resource(HelloWorld, '/h')
 api.add_resource(CategoryAPI, api_route + '/categories')
-api.add_resource(BooksAPI, api_route + '/books')
-api.add_resource(BasicAPI, api_route + '/basic')
+api.add_resource(BooksAPI, api_route + '/books/<int:id>')
 
 
-# db.create_all()
-# db.session.add(Category(name="Test"))
-#
-#
 @app.route('/dist/<path:path>')
 def send_js(path):
     return send_from_directory('webkit-build', path)
@@ -38,8 +32,3 @@ def send_js(path):
 @app.route('/<section>')
 def home(section="top"):
     return render_template('app.html', section=section)
-#
-#
-# # Register REST API routes
-# # app.register_blueprint(basic_route, url_prefix=apiRoute)
-#
