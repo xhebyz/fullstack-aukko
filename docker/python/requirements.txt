@@ -5,3 +5,4 @@ beautifulsoup4
 Flask-SQLAlchemy
 SQLAlchemy
 SQLAlchemy-serializer
+flask-restful

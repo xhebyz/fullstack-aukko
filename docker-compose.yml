@@ -1,14 +1,21 @@
 version: '3'
 services:
-    flask-react:
-      build: .
-      command: bash -c "npm start & while [ ! -f webkit-build/manifest.json ] ; do sleep 1 ; echo 'waiting for manifest.json from webkit' ; done ; python3 -m flask run --host=0.0.0.0"
-      volumes:
-        - .:/home/app-user/app
-        - /home/app-user/app/node_modules
-      ports:
-        - "5000:5000"
-      environment:
-        - FLASK_APP=app.py
-        - FLASK_DEBUG=1
-      user: root
+  flask:
+    build: docker/python
+    command: python -m flask run --host=0.0.0.0
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_APP=app.py
+      - FLASK_DEBUG=1
+    user: root
+  react:
+    build: .
+    command: bash -c "npm start & while [ ! -f webkit-build/manifest.json ] ; do sleep 1 ; echo 'waiting for manifest.json from webkit' ; done"
+    volumes:
+      - .:/home/app-user/app
+      - /home/app-user/app/node_modules
+    user: root

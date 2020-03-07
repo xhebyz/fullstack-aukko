@@ -1,5 +1,4 @@
 FROM node:12
-MAINTAINER Benjamin Knox "bknox.contact@gmail.com"
 
 ENV LC_ALL C.UTF-8
 ENV LANG en_US.UTF-8
@@ -18,9 +17,6 @@ ADD . $HOME/app
 RUN chown -R app-user:app-user $HOME/*
 
 USER app-user
-
-
-RUN cd $HOME/app ; pip3 install -r requirements.txt
 
 WORKDIR $HOME/app
 RUN npm install

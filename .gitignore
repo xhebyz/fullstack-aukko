@@ -75,3 +75,4 @@ typings/
 manifest.json
 *.json~
 .idea
+*.db
