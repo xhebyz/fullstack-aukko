@@ -1,6 +1,7 @@
 from flask import render_template, send_from_directory
 from api.v1.category import CategoryAPI
 from api.v1.book import BooksAPI
+from api.v1.scraping import ScrapingAPI
 from flask_restful import Resource
 from config import app, api
 
@@ -19,6 +20,7 @@ class HelloWorld(Resource):
 
 api.add_resource(CategoryAPI, api_route + '/categories')
 api.add_resource(BooksAPI, api_route + '/books/<int:id>')
+api.add_resource(ScrapingAPI, api_route + '/scraping')
 
 
 @app.route('/dist/<path:path>')

@@ -3,14 +3,16 @@ from bs4 import BeautifulSoup
 import re
 from config import db
 from models import Book, Category
-
+import logging
 
 
 def remove_old_data():
     db.drop_all(bind=None)
     db.create_all()
 
+
 def create_categories():
+    logging.debug('Create categories')
     url_scraping = "http://books.toscrape.com/index.html"
     result = requests.get(url_scraping)
     soup = BeautifulSoup(result.text, 'html.parser')
@@ -34,12 +36,11 @@ def create_categories():
 
         books = find_books(url, category)
         category["books"] = books
-
-        print(category)
         db.session.commit()
 
 
 def find_books(url_category, category):
+    logging.debug('Find books')
     books = []
     url_scraping = "http://books.toscrape.com"
     url_catalogue = "http://books.toscrape.com/catalogue"
@@ -49,6 +50,8 @@ def find_books(url_category, category):
 
     main_page_products_urls = [x.div.a.get('href') for x in soup.findAll("article", class_="product_pod")]
     for url in main_page_products_urls:
+        logging.debug('Product Book')
+
         url = url_catalogue + url.replace('../../..', '')
 
         result_book = requests.get(url)
@@ -91,6 +94,7 @@ def find_books(url_category, category):
     next_class = soup.findAll("li", class_="next")
 
     if next_class:
+        logging.debug('Next Page Categories')
         next_url = next_class[0].a.get('href')
         url_cat = url_category.split('/')
         url_cat[-1] = next_url
@@ -101,5 +105,6 @@ def find_books(url_category, category):
     return books
 
 
-remove_old_data()
-create_categories()
+def launch_scraping():
+    remove_old_data()
+    create_categories()

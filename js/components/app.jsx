@@ -5,6 +5,7 @@ import Select from '@material-ui/core/Select';
 import MenuItem from '@material-ui/core/MenuItem';
 import CustomizedTables from './table-data.jsx';
 import {LinearProgress} from '@material-ui/core';
+import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles(theme => ({
     rounded: {
@@ -58,6 +59,22 @@ export default function App() {
             });
     }
 
+
+    const launchScraping = () => {
+        setLoading(true)
+        fetch(`/api/v1/scraping`)
+            .then(result => {
+                return result.json();
+            })
+            .then(response => {
+                setLoading(false)
+            }).catch(err => {
+            setLoading(false)
+
+        });
+    }
+
+
     const handleChange = event => {
         let categories_id = event.target.value
         setCategory(categories_id);
@@ -66,6 +83,7 @@ export default function App() {
         setBooks(category_data.books);
         setCategoryName(category_data.name);
     };
+
     return (
 
         <div style={{margin: '0 auto'}}>
@@ -73,23 +91,27 @@ export default function App() {
 
             <Paper style={{textAlign: 'center'}}>
 
+                <div style={{padding: '10px'}}>
+                    <Button onClick={launchScraping} variant="contained" color="primary" style={{marginRight: '25px'}}>Scraping
+                        Book</Button>
+                    <Select
+                        value={category}
+                        onChange={handleChange}
+                    >
 
-                <Select
-                    value={category}
-                    onChange={handleChange}
-                >
-                    <MenuItem value='-1'>Select Category</MenuItem>
+                        <MenuItem value='-1'>Select Category</MenuItem>
 
-                    {
-                        categories.map((cat, i) => {
-                            console.log("Entered");
-                            // Return the element. Also pass key
-                            return (
-                                <MenuItem value={i}>{cat.name}</MenuItem>
-                            )
-                        })
-                    }
-                </Select>
+                        {
+                            categories.map((cat, i) => {
+                                console.log("Entered");
+                                // Return the element. Also pass key
+                                return (
+                                    <MenuItem value={i}>{cat.name}</MenuItem>
+                                )
+                            })
+                        }
+                    </Select>
+                </div>
                 <CustomizedTables data={books} setBooks={setBooksHandle} categoryName={categoryName}/>
             </Paper>
         </div>

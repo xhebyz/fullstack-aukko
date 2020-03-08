@@ -1,0 +1,170 @@
+[
+  {
+    "categories": [
+      {
+        "id": 1,
+        "name": "Travel"
+      },
+      {
+        "id": 2,
+        "name": "Mystery"
+      },
+      {
+        "id": 3,
+        "name": "Historical Fiction"
+      }
+    ],
+    "books": [
+      {
+        "id": 3,
+        "category_id": 1,
+        "title": "See America: A Celebration of Our National Parks & Treasured Sites",
+        "thumbnail_url": "http://books.toscrape.com/media/cache/c7/1a/c71a85dbf8c2dbc75cb271026618477c.jpg",
+        "price": "Â£48.87",
+        "stock": 1,
+        "product_description": "To coincide with the 2016 centennial anniversary of the National Parks Service, the Creative Action Network has partnered with the National Parks Conservation Association to revive and reimagine the legacy of WPA travel posters. Artists from all over the world have participated in the creation of this new, crowdsourced collection of See America posters for a modern era. Fe To coincide with the 2016 centennial anniversary of the National Parks Service, the Creative Action Network has partnered with the National Parks Conservation Association to revive and reimagine the legacy of WPA travel posters. Artists from all over the world have participated in the creation of this new, crowdsourced collection of See America posters for a modern era. Featuring artwork for 75 national parks and monuments across all 50 states, this engaging keepsake volume celebrates the full range of our nation's landmarks and treasured wilderness. ...more",
+        "upc": "f9705c362f070608"
+      },
+      {
+        "id": 4,
+        "category_id": 1,
+        "title": "Vagabonding: An Uncommon Guide to the Art of Long-Term World Travel",
+        "thumbnail_url": "http://books.toscrape.com/media/cache/ca/30/ca30b1afe1e76ce7ba1db8176d398e53.jpg",
+        "price": "Â£36.94",
+        "stock": 1,
+        "product_description": "With a new foreword by Tim Ferriss â\u0080¢Thereâ\u0080\u0099s nothing like vagabonding: taking time off from your normal lifeâ\u0080\u0094from six weeks to four months to two yearsâ\u0080\u0094to discover and experience the world on your own terms. In this one-of-a-kind handbook, veteran travel writer Rolf Potts explains how anyone armed with an independent spirit can achieve the dream of extended overseas travel. With a new foreword by Tim Ferriss â\u0080¢Â Thereâ\u0080\u0099s nothing like vagabonding: taking time off from your normal lifeâ\u0080\u0094from six weeks to four months to two yearsâ\u0080\u0094to discover and experience the world on your own terms. In this one-of-a-kind handbook, veteran travel writer Rolf Potts explains how anyone armed with an independent spirit can achieve the dream of extended overseas travel. Now completely revised and updated, Vagabonding is an accessible and inspiring guide to Â  â\u0080¢ financing your travel time â\u0080¢ determining your destination â\u0080¢ adjusting to life on the road â\u0080¢ working and volunteering overseas â\u0080¢Â handling travel adversity â\u0080¢ re-assimilating back into ordinary life Â Praise for VagabondingÂ  â\u0080\u009CA crucial reference for any budget wanderer.â\u0080\u009Dâ\u0080\u0094TimeÂ  â\u0080\u009CVagabonding easily remains in my top-10 list of life-changing books. Why? Because one incredible trip, especially a long-term trip, can change your life forever. And Vagabonding teaches you how to travel (and think), not just for one trip, but for the rest of your life.â\u0080\u009Dâ\u0080\u0094Tim Ferriss, from the foreword Â  â\u0080\u009CThe book is a meditation on the joys of hitting the road. . . . Itâ\u0080\u0099s also a primer for those with a case of pent-up wanderlust seeking to live the dream.â\u0080\u009Dâ\u0080\u0094USA Today Â  â\u0080\u009CI couldnâ\u0080\u0099t put this book down. Itâ\u0080\u0099s a whole different ethic of travel. . . . [Pottsâ\u0080\u0099s] practical advice might just convince you to enjoy that open-ended trip of a lifetime.â\u0080\u009Dâ\u0080\u0094Rick Steves Â  â\u0080\u009CPotts wants us to wander, to explore, to embrace the unknown, and, finally, to take our own damn time about it. I think this is the most sensible book of travel-related advice ever written.â\u0080\u009Dâ\u0080\u0094Tim Cahill, founding editor of Outside ...more",
+        "upc": "1809259a5a5f1d8d"
+      },
+      {
+        "id": 5,
+        "category_id": 1,
+        "title": "Under the Tuscan Sun",
+        "thumbnail_url": "http://books.toscrape.com/media/cache/45/21/4521c581ba727f5c835e34860cbf53e5.jpg",
+        "price": "Â£37.33",
+        "stock": 1,
+        "product_description": "A CLASSIC FROM THE BESTSELLING AUTHOR OF UNDER MAGNOLIAFrances Mayesâ\u0080\u0094widely published poet, gourmet cook, and travel writerâ\u0080\u0094opens the door to a wondrous new world when she buys and restores an abandoned villa in the spectacular Tuscan countryside. In evocative language, she brings the reader along as she discovers the beauty and simplicity of life in Italy. Mayes also crea A CLASSIC FROM THE BESTSELLING AUTHOR OF UNDER MAGNOLIAFrances Mayesâ\u0080\u0094widely published poet, gourmet cook, and travel writerâ\u0080\u0094opens the door to a wondrous new world when she buys and restores an abandoned villa in the spectacular Tuscan countryside. In evocative language, she brings the reader along as she discovers the beauty and simplicity of life in Italy. Mayes also creates dozens of delicious seasonal recipes from her traditional kitchen and simple garden, all of which she includes in the book. Doing for Tuscany what M.F.K. Fisher and Peter Mayle did for Provence, Mayes writes about the tastes and pleasures of a foreign country with gusto and passion. ...more",
+        "upc": "a94350ee74deaa07"
+      },
+      {
+        "id": 6,
+        "category_id": 1,
+        "title": "A Summer In Europe",
+        "thumbnail_url": "http://books.toscrape.com/media/cache/6c/e3/6ce3003931701c7a3fd5354917538ea9.jpg",
+        "price": "Â£44.34",
+        "stock": 1,
+        "product_description": "On her thirtieth birthday, Gwendolyn Reese receives an unexpected present from her widowed Aunt Bea: a grand tour of Europe in the company of Bea's Sudoku and Mahjongg Club. The prospect isn't entirely appealing. But when the gift she is expecting--an engagement ring from her boyfriend--doesn't materialize, Gwen decides to go. At first, Gwen approaches the trip as if it's On her thirtieth birthday, Gwendolyn Reese receives an unexpected present from her widowed Aunt Bea: a grand tour of Europe in the company of Bea's Sudoku and Mahjongg Club. The prospect isn't entirely appealing. But when the gift she is expecting--an engagement ring from her boyfriend--doesn't materialize, Gwen decides to go. At first, Gwen approaches the trip as if it's the math homework she assigns her students, diligently checking monuments off her must-see list. But amid the bougainvillea and stunning vistas of southern Italy, something changes. Gwen begins to live in the moment--skipping down stone staircases in Capri, running her fingers over a glacier in view of the Matterhorn, racing through the Louvre, and taste-testing pastries at a Marseilles cafe. Reveling in every new experience--especially her attraction to a charismatic British physics professor--Gwen discovers that the ancient wonders around her are nothing compared to the renaissance unfolding within. . . \"A thinking woman's love story, it swept me away to breathtaking places with a cast of endearing characters I won't soon forget. Bravissima!\" Susan McBride, author of \"Little Black Dress\" Praise for Marilyn Brant's According to Jane \"A warm, witty and charmingly original story.\" --Susan Wiggs, \"New York Times \" bestselling author \"Brant infuses her sweetly romantic and delightfully clever tale with just the right dash of Austen-esque wit.\" \"Chicago Tribune\" \"An engaging read for all who have been through the long, dark, dating wars, and still believe there's sunshine, and a Mr. Darcy, at the end of the tunnel.\" --Cathy Lamb, author of \"Such a Pretty Face\"\" ...more",
+        "upc": "cc1936a9f4e93477"
+      },
+      {
+        "id": 7,
+        "category_id": 1,
+        "title": "The Great Railway Bazaar",
+        "thumbnail_url": "http://books.toscrape.com/media/cache/d5/82/d582f6b0261c2842330e893962276295.jpg",
+        "price": "Â£30.54",
+        "stock": 1,
+        "product_description": "First published more than thirty years ago, Paul Theroux's strange, unique, and hugely entertaining railway odyssey has become a modern classic of travel literature. Here Theroux recounts his early adventures on an unusual grand continental tour. Asia's fabled trains -- the Orient Express, the Khyber Pass Local, the Frontier Mail, the Golden Arrow to Kuala Lumpur, the Mand First published more than thirty years ago, Paul Theroux's strange, unique, and hugely entertaining railway odyssey has become a modern classic of travel literature. Here Theroux recounts his early adventures on an unusual grand continental tour. Asia's fabled trains -- the Orient Express, the Khyber Pass Local, the Frontier Mail, the Golden Arrow to Kuala Lumpur, the Mandalay Express, the Trans-Siberian Express -- are the stars of a journey that takes him on a loop eastbound from London's Victoria Station to Tokyo Central, then back from Japan on the Trans-Siberian. Brimming with Theroux's signature humor and wry observations, this engrossing chronicle is essential reading for both the ardent adventurer and the armchair traveler. ...more",
+        "upc": "48736df57e7bec9f"
+      },
+      {
+        "id": 12,
+        "category_id": 2,
+        "title": "Sharp Objects",
+        "thumbnail_url": "http://books.toscrape.com/media/cache/c0/59/c05972805aa7201171b8fc71a5b00292.jpg",
+        "price": "Â£47.82",
+        "stock": 1,
+        "product_description": "WICKED above her hipbone, GIRL across her heart Words are like a road map to reporter Camille Preakerâ\u0080\u0099s troubled past. Fresh from a brief stay at a psych hospital, Camilleâ\u0080\u0099s first assignment from the second-rate daily paper where she works brings her reluctantly back to her hometown to cover the murders of two preteen girls. NASTY on her kneecap, BABYDOLL on her leg Since WICKED above her hipbone, GIRL across her heart Words are like a road map to reporter Camille Preakerâ\u0080\u0099s troubled past. Fresh from a brief stay at a psych hospital, Camilleâ\u0080\u0099s first assignment from the second-rate daily paper where she works brings her reluctantly back to her hometown to cover the murders of two preteen girls. NASTY on her kneecap, BABYDOLL on her leg Since she left town eight years ago, Camille has hardly spoken to her neurotic, hypochondriac mother or to the half-sister she barely knows: a beautiful thirteen-year-old with an eerie grip on the town. Now, installed again in her familyâ\u0080\u0099s Victorian mansion, Camille is haunted by the childhood tragedy she has spent her whole life trying to cut from her memory. HARMFUL on her wrist, WHORE on her ankle As Camille works to uncover the truth about these violent crimes, she finds herself identifying with the young victimsâ\u0080\u0094a bit too strongly. Clues keep leading to dead ends, forcing Camille to unravel the psychological puzzle of her own past to get at the story. Dogged by her own demons, Camille will have to confront what happened to her years before if she wants to survive this homecoming.With its taut, crafted writing, Sharp Objects is addictive, haunting, and unforgettable. ...more",
+        "upc": "e00eb4fd7b871a48"
+      },
+      {
+        "id": 13,
+        "category_id": 2,
+        "title": "In a Dark, Dark Wood",
+        "thumbnail_url": "http://books.toscrape.com/media/cache/95/84/95840dfd67c020067c99d70451147e20.jpg",
+        "price": "Â£19.63",
+        "stock": 1,
+        "product_description": "In a dark, dark wood Nora hasn't seen Clare for ten years. Not since Nora walked out of school one day and never went back. There was a dark, dark houseUntil, out of the blue, an invitation to Clareâ\u0080\u0099s hen do arrives. Is this a chance for Nora to finally put her past behind her?And in the dark, dark house there was a dark, dark roomBut something goes wrong. Very wrong.And i In a dark, dark wood Nora hasn't seen Clare for ten years. Not since Nora walked out of school one day and never went back. There was a dark, dark houseUntil, out of the blue, an invitation to Clareâ\u0080\u0099s hen do arrives. Is this a chance for Nora to finally put her past behind her?And in the dark, dark house there was a dark, dark roomBut something goes wrong. Very wrong.And in the dark, dark room.... Some things canâ\u0080\u0099t stay secret for ever. ...more",
+        "upc": "19ed25f4641d5efd"
+      },
+      {
+        "id": 14,
+        "category_id": 2,
+        "title": "The Past Never Ends",
+        "thumbnail_url": "http://books.toscrape.com/media/cache/9d/f2/9df248dcefeaba9eeb519a59b248f72c.jpg",
+        "price": "Â£56.50",
+        "stock": 1,
+        "product_description": "A simple task, Attorney Chester Morgan thinks. Get a copy of a public record for a young man whose only friend has died in an unexplained accidental death. Except... The police file regarding the demise of sex worker Tanya Everly has been sealed by the order of the chief of police, and no one will talk. Warned to drop the matter, Attorney Morgan knows that if he doesn't sp A simple task, Attorney Chester Morgan thinks. Get a copy of a public record for a young man whose only friend has died in an unexplained accidental death. Except... The police file regarding the demise of sex worker Tanya Everly has been sealed by the order of the chief of police, and no one will talk. Warned to drop the matter, Attorney Morgan knows that if he doesn't speak for the dead young woman, no one will. Haunted by his discovery of the body of a prominent local oilman, Morgan pursues a quest for justice that puts his reputation, career, and life at risk. A journey that takes him into the dark shadows of the sex-for-sale business, into the marble courtrooms of Oklahoma, and into the aching loneliness of his own soul. Set in the American Southwest in the days before 9/11, The Past Never Ends is both a complex murder mystery and a meditation on the self-perpetuating nature of injustice and the ethereal nature of justice itself. ...more",
+        "upc": "5ee94540d0749ea0"
+      },
+      {
+        "id": 15,
+        "category_id": 2,
+        "title": "A Murder in Time",
+        "thumbnail_url": "http://books.toscrape.com/media/cache/cc/bd/ccbd7a62caefd5a3a2e04dd7c2ff48fe.jpg",
+        "price": "Â£16.64",
+        "stock": 1,
+        "product_description": "Beautiful and brilliant, Kendra Donovan is a rising star at the FBI. Yet her path to professional success hits a speed bump during a disastrous raid where half her team is murdered, a mole in the FBI is uncovered and she herself is severely wounded. As soon as she recovers, she goes rogue and travels to England to assassinate the man responsible for the deaths of her teamm Beautiful and brilliant, Kendra Donovan is a rising star at the FBI. Yet her path to professional success hits a speed bump during a disastrous raid where half her team is murdered, a mole in the FBI is uncovered and she herself is severely wounded. As soon as she recovers, she goes rogue and travels to England to assassinate the man responsible for the deaths of her teammates.While fleeing from an unexpected assassin herself, Kendra escapes into a stairwell that promises sanctuary but when she stumbles out again, she is in the same place - Aldrich Castle - but in a different time: 1815, to be exact.Mistaken for a lady's maid hired to help with weekend guests, Kendra is forced to quickly adapt to the time period until she can figure out how she got there; and, more importantly, how to get back home. However, after the body of a young girl is found on the extensive grounds of the county estate, she starts to feel there's some purpose to her bizarre circumstances. Stripped of her twenty-first century tools, Kendra must use her wits alone in order to unmask a cunning madman. ...more",
+        "upc": "f733e8c19d40ec2e"
+      },
+      {
+        "id": 16,
+        "category_id": 2,
+        "title": "The Murder of Roger Ackroyd (Hercule Poirot #4)",
+        "thumbnail_url": "http://books.toscrape.com/media/cache/86/38/8638ba095b3b32e0abdef170e7bc4fd6.jpg",
+        "price": "Â£44.10",
+        "stock": 1,
+        "product_description": "In the village of King's Abbot, a widow's sudden suicide sparks rumors that she murdered her first husband, was being blackmailed, and was carrying on a secret affair with the wealthy Roger Ackroyd. The following evening, Ackroyd is murdered in his locked study--but not before receiving a letter identifying the widow's blackmailer. King's Abbot is crawling with suspects, i In the village of King's Abbot, a widow's sudden suicide sparks rumors that she murdered her first husband, was being blackmailed, and was carrying on a secret affair with the wealthy Roger Ackroyd. The following evening, Ackroyd is murdered in his locked study--but not before receiving a letter identifying the widow's blackmailer. King's Abbot is crawling with suspects, including a nervous butler, Ackroyd's wayward stepson, and his sister-in-law, Mrs. Cecil Ackroyd, who has taken up residence in the victim's home. It's now up to the famous detective Hercule Poirot, who has retired to King's Abbot to garden, to solve the case of who killed Roger Ackroyd--a task in which he is aided by the village doctor and narrator, James Sheppard, and by Sheppard's ingenious sister, Caroline.The Murder of Roger Ackroyd is the book that made Agatha Christie a household name and launched her career as a perennial bestseller. Originally published in 1926, it is a landmark in the mystery genre. It was in the vanguard of a new class of popular detective fiction that ushered in the modern era of mystery novels. ...more",
+        "upc": "c7b5183f4d1d4efe"
+      },
+      {
+        "id": 44,
+        "category_id": 3,
+        "title": "Tipping the Velvet",
+        "thumbnail_url": "http://books.toscrape.com/media/cache/08/e9/08e94f3731d7d6b760dfbfbc02ca5c62.jpg",
+        "price": "Â£53.74",
+        "stock": 1,
+        "product_description": "\"Erotic and absorbing...Written with starling power.\"--\"The New York Times Book Review \" Nan King, an oyster girl, is captivated by the music hall phenomenon Kitty Butler, a male impersonator extraordinaire treading the boards in Canterbury. Through a friend at the box office, Nan manages to visit all her shows and finally meet her heroine. Soon after, she becomes Kitty's \"Erotic and absorbing...Written with starling power.\"--\"The New York Times Book Review \" Nan King, an oyster girl, is captivated by the music hall phenomenon Kitty Butler, a male impersonator extraordinaire treading the boards in Canterbury. Through a friend at the box office, Nan manages to visit all her shows and finally meet her heroine. Soon after, she becomes Kitty's dresser and the two head for the bright lights of Leicester Square where they begin a glittering career as music-hall stars in an all-singing and dancing double act. At the same time, behind closed doors, they admit their attraction to each other and their affair begins. ...more",
+        "upc": "90fa61229261140a"
+      },
+      {
+        "id": 45,
+        "category_id": 3,
+        "title": "Forever and Forever: The Courtship of Henry Longfellow and Fanny Appleton",
+        "thumbnail_url": "http://books.toscrape.com/media/cache/f9/9e/f99e760b894d10c6e5ed578618918367.jpg",
+        "price": "Â£29.69",
+        "stock": 1,
+        "product_description": "A Proper Historical Romance seriesThe first book in a new series which will focus on the lives of real historical figures who have intriguing stories of courtship that are recreated in fictionalized accounts based on real biographical and social history research.\"A well-researched, emotionally charged tale. A love story...fit for the ages.\" -Publishers Weekly.It's 1836, an A Proper Historical Romance seriesThe first book in a new series which will focus on the lives of real historical figures who have intriguing stories of courtship that are recreated in fictionalized accounts based on real biographical and social history research.\"A well-researched, emotionally charged tale. A love story...fit for the ages.\" -Publishers Weekly.It's 1836, and nineteen-year-old Fanny Appleton, a privileged daughter of a wealthy, upper-class Boston industrialist, is touring Europe with her family. Like many girls of her day, she enjoys the fine clothes, food, and company of the elite social circles. But unlike her peers, Fanny is also drawn to education, literature, and more intellectual pursuits.Published author and poet Henry Wadsworth Longfellow is also touring Europe, but under much different circumstances. Widowed while on tour, he has stayed in order to gather credentials that he hopes will secure his professorship at Harvard College. When Henry meets Fanny, he sees in her a kindred spirit, a lover of language and literature and high ideals. He is in love. Fanny, however, is uncertain. He is ten years older than she is, and from a much lower social class. How could such a relationship ever thrive?Could a book of Henryâ\u0080\u0099s poetry, personally delivered, persuade Fanny to believe in a love that lasts forever and forever? ...more",
+        "upc": "9beb96a2300109d7"
+      },
+      {
+        "id": 46,
+        "category_id": 3,
+        "title": "A Flight of Arrows (The Pathfinders #2)",
+        "thumbnail_url": "http://books.toscrape.com/media/cache/ec/65/ec651ed66822d4b68938afa645b1ece2.jpg",
+        "price": "Â£55.53",
+        "stock": 1,
+        "product_description": "October 1776--August 1777It is said that what a man sows he will reap--and for such a harvest there is no set season. No one connected to Reginald Aubrey is untouched by the crime he committed twenty years ago. Not William, the Oneida child Reginald stole and raised as his own. Identity shattered, enlisted in the British army, William trains with Loyalist refugees eager to October 1776--August 1777It is said that what a man sows he will reap--and for such a harvest there is no set season. No one connected to Reginald Aubrey is untouched by the crime he committed twenty years ago. Not William, the Oneida child Reginald stole and raised as his own. Identity shattered, enlisted in the British army, William trains with Loyalist refugees eager to annihilate the rebels who forced them into exile. Coming to terms with who and what he is proves impossible, but if he breaks his Loyalist oath, he'll be no better than the man who constructed his life of lies.Not Anna, Reginald's adopted daughter, nor Two Hawks, William's twin, both who long for Reginald to accept their love despite the challenges they will face, building a marriage that bridges two cultures. Not Good Voice and Stone Thrower, freed of bitterness by a courageous act of forgiveness, but still yearning for their firstborn son and fearful for the future of their Oneida people.As the British prepare to attack frontier New York and Patriot regiments rally to defend it, two families separated by culture, united by love, will do all in their power to reclaim the son marching toward them in the ranks of their enemies. ...more",
+        "upc": "3a6fb983e2554023"
+      },
+      {
+        "id": 47,
+        "category_id": 3,
+        "title": "The House by the Lake",
+        "thumbnail_url": "http://books.toscrape.com/media/cache/46/a2/46a2c968bfccf1979cc5576085eec6dd.jpg",
+        "price": "Â£36.95",
+        "stock": 1,
+        "product_description": "Anna is content with her well-ordered life in San Francisco. But her world is turned upside down when her beloved grandfather, Max, reveals a startling secret: Anna is part of an aristocratic family who lost everything during World War II. Whatâ\u0080\u0099s more, Max was forced to leave behind a precious item over seventy years ago in their estate in old Prussia. Itâ\u0080\u0099s now his ardent Anna is content with her well-ordered life in San Francisco. But her world is turned upside down when her beloved grandfather, Max, reveals a startling secret: Anna is part of an aristocratic family who lost everything during World War II. Whatâ\u0080\u0099s more, Max was forced to leave behind a precious item over seventy years ago in their estate in old Prussia. Itâ\u0080\u0099s now his ardent wish that Anna retrieve it.Anna burns with questions as she heads for Germany: What memento could be so important to her grandfather? And why did he keep their history hidden? As she searches for answers, she finds herself drawn to Wil, a man who may hold the key to unlock the mystery. Together they discover that her familyâ\u0080\u0099s secrets are linked with an abandoned apartment in Paris, and these secrets go deeper than she ever imagined.Alternating between 1930s Europe and the present, The House by the Lake illuminates the destiny of a family caught in the tumult of history. ...more",
+        "upc": "9287e238d7c3b06e"
+      },
+      {
+        "id": 50,
+        "category_id": 3,
+        "title": "Glory over Everything: Beyond The Kitchen House",
+        "thumbnail_url": "http://books.toscrape.com/media/cache/06/ac/06ac98df817412ce2419c4509fa98c80.jpg",
+        "price": "Â£45.84",
+        "stock": 1,
+        "product_description": "From the author of the New York Times bestseller and beloved book club favorite The Kitchen House, a novel of family and long-buried secrets along the treacherous Underground Railroad.Jamie Pyke, son of both a slave and master of Tall Oakes, has a deadly secret that compels him to take a treacherous journey through the Underground Railroad.Published in 2010, The Kitchen Ho From the author of the New York Times bestseller and beloved book club favorite The Kitchen House, a novel of family and long-buried secrets along the treacherous Underground Railroad.Jamie Pyke, son of both a slave and master of Tall Oakes, has a deadly secret that compels him to take a treacherous journey through the Underground Railroad.Published in 2010, The Kitchen House became a grassroots bestseller. Fans connected so deeply to the bookâ\u0080\u0099s characters that the author, Kathleen Grissom, found herself being asked over and over â\u0080\u009Cwhat happens next?â\u0080\u009D The wait is finally over.This new, stand-alone novel opens in 1830, and Jamie, who fled from the Virginian plantation he once called home, is passing in Philadelphia society as a wealthy white silversmith. After many years of striving, Jamie has achieved acclaim and security, only to discover that his aristocratic lover Caroline is pregnant. Before he can reveal his real identity to her, he learns that his beloved servant Pan has been captured and sold into slavery in the South. Panâ\u0080\u0099s father, to whom Jamie owes a great debt, pleads for Jamieâ\u0080\u0099s help, and Jamie agrees, knowing the journey will take him perilously close to Tall Oakes and the ruthless slave hunter who is still searching for him. Meanwhile, Carolineâ\u0080\u0099s father learns and exposes Jamieâ\u0080\u0099s secret, and Jamie loses his home, his business, and finally Caroline.Heartbroken and with nothing to lose, Jamie embarks on a trip to a North Carolina plantation where Pan is being held with a former Tall Oakes slave named Sukey, who is intent on getting Pan to the Underground Railroad. Soon the three of them are running through the Great Dismal Swamp, the notoriously deadly hiding place for escaped slaves. Though they have help from those in the Underground Railroad, not all of them will make it out alive. ...more",
+        "upc": "de4b403cb629a29f"
+      }
+    ]
+  }
+]
