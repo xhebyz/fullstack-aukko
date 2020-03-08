@@ -53,7 +53,7 @@ export default function App() {
             });
     }
 
-    const setBooksHandle = (books) => {
+    const setBooksHandle = () => {
         setLoading(true)
         fetch(`/api/v1/categories`)
             .then(result => {
@@ -78,6 +78,7 @@ export default function App() {
             })
             .then(response => {
                 setLoading(false)
+                setBooksHandle()
             }).catch(err => {
             setLoading(false)
 
