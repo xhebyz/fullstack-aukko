@@ -49,8 +49,8 @@ export default function CustomizedTables({data, setBooks, categoryName}) {
                                {title: 'Cover', field: 'thumbnail_url', render: rowData => <img src={rowData.thumbnail_url} style={{width: 100}}/> },
                                {title: "Stock", field: "stock"},
                                {title: "Price", field: "price"},
-                               {title: "description", field: "product_description"},
-                               {title: "upc", field: "upc"}
+                               {title: "Description", field: "product_description"},
+                               {title: "UPC", field: "upc"}
                            ]}
                            data={data}
                            title={categoryName + " Books"}

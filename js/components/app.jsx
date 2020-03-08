@@ -103,8 +103,7 @@ export default function App() {
 
                 <div style={{padding: '10px'}}>
                     <Button onClick={launchScraping} variant="contained" color="primary"
-                            style={{marginRight: '25px', marginTop: '20px'}}>Scraping
-                        Book</Button>
+                            style={{marginRight: '25px', marginTop: '20px'}}>Scraping data</Button>
 
                     <FormControl className={classes.formControl}>
                         <InputLabel id="category-select-label">Category</InputLabel>
