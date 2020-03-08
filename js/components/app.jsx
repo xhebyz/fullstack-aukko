@@ -6,6 +6,8 @@ import MenuItem from '@material-ui/core/MenuItem';
 import CustomizedTables from './table-data.jsx';
 import {LinearProgress} from '@material-ui/core';
 import Button from '@material-ui/core/Button';
+import FormControl from '@material-ui/core/FormControl';
+import InputLabel from '@material-ui/core/InputLabel';
 
 const useStyles = makeStyles(theme => ({
     rounded: {
@@ -20,8 +22,16 @@ const useStyles = makeStyles(theme => ({
         '& > *': {
             margin: theme.spacing(1),
         }
+    },
+    formControl: {
+        margin: theme.spacing(1),
+        minWidth: 250,
+    },
+    selectEmpty: {
+        marginTop: theme.spacing(2),
     }
 }));
+
 
 export default function App() {
     const classes = useStyles();
@@ -79,7 +89,6 @@ export default function App() {
         let categories_id = event.target.value
         setCategory(categories_id);
         let category_data = categories[categories_id];
-        console.log(category_data.books)
         setBooks(category_data.books);
         setCategoryName(category_data.name);
     };
@@ -92,25 +101,35 @@ export default function App() {
             <Paper style={{textAlign: 'center'}}>
 
                 <div style={{padding: '10px'}}>
-                    <Button onClick={launchScraping} variant="contained" color="primary" style={{marginRight: '25px'}}>Scraping
+                    <Button onClick={launchScraping} variant="contained" color="primary"
+                            style={{marginRight: '25px', marginTop: '20px'}}>Scraping
                         Book</Button>
-                    <Select
-                        value={category}
-                        onChange={handleChange}
-                    >
 
-                        <MenuItem value='-1'>Select Category</MenuItem>
+                    <FormControl className={classes.formControl}>
+                        <InputLabel id="category-select-label">Category</InputLabel>
+                        <Select
+                            labelId="category-select-label"
+                            id="category-select-label"
+                            value={category}
+                            onChange={handleChange}
+                        >
 
-                        {
-                            categories.map((cat, i) => {
-                                console.log("Entered");
-                                // Return the element. Also pass key
-                                return (
-                                    <MenuItem value={i}>{cat.name}</MenuItem>
-                                )
-                            })
-                        }
-                    </Select>
+                            {/*<MenuItem value="-1">*/}
+                            {/*    <em>None</em>*/}
+                            {/*</MenuItem>*/}
+
+
+                            {
+                                categories.map((cat, i) => {
+                                    console.log("Entered");
+                                    // Return the element. Also pass key
+                                    return (
+                                        <MenuItem value={i}>{cat.name}</MenuItem>
+                                    )
+                                })
+                            }
+                        </Select>
+                    </FormControl>
                 </div>
                 <CustomizedTables data={books} setBooks={setBooksHandle} categoryName={categoryName}/>
             </Paper>
